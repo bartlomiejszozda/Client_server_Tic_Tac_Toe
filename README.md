@@ -1,9 +1,13 @@
-plik glowny server.py, czeka na uruchomienie client.py. Informacje na tematy obslugi sa printowane.
+server.py wait for client.py Information about service are printed
 
-server.py obsluguje gre korzystajac z plikow:
+server.py service whole game using:
 
-game_state, sprawdzajacego stan gry ( czy ktos zwyciezyl)
+human_player and computer_player - responsive for human and computer play
 
-draw_board, rysujacego tablice do gry
+game_state - check game state (End game if human or computer win)
 
-oraz computer_player odpowiadajacego za re komputera
+draw_board - draw the game board
+
+[![Build Status](https://travis-ci.org/bartlomiejszozda/Lab_3.svg?branch=master)](https://travis-ci.org/bartlomiejszozda/Lab_3)
+
+
